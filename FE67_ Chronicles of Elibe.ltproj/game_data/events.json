@@ -3889,6 +3889,8 @@
             "#Saves which unit from castleUnits that you selected to game_var \"chosenUnit\"",
             "$choice \"_chosenUnit\" \"Which unit?\u2028\" castleUnits 73 \"vertical\" \"top\" EventNid=\"test RunCastle_Market\" EntryType=\"type_unit\" Dimensions=(8,3),scroll_bar backable persist",
             "",
+            "#TO-DO: currently the way this functions (summoning the last chosen unit when backing out) is janky and can result in pulling out the wrong units when you don't intend to. I still need to make a proper event for removing units from the castle",
+            "",
             "#$choice \"_temp\" \"Text\" \"yes,no\",backable",
             "",
             "#If the player cancelled out of choosing a unit, respawn their unit.",
