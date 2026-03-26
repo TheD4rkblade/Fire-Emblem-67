@@ -3760,13 +3760,16 @@
             "add_portrait;{unit};Left",
             "speak;{unit};\"This castle is ours!\"",
             "",
-            "#Remove the 'seize' region and tell the game to start spawning the 'visit' region.",
+            "#Remove the 'seize' region and tell the game to spawn the 'visit' region.",
             "remove_region;OtherCastle_a",
-            "level_var;_respawnCastleOne;True",
+            "add_region;OtherCastle_b;{unit};1,1;event;Visit",
+            "",
             "#This MUST follow the format \"_castle(name)_occupants\". The code will not execute properly if you don't do this!",
             "game_var;_castleCaptured_occupants;[]",
-            "#Ordinarily this is meant to make a unit end their turn, but as far as I can tell it's not working.",
-            "has_finished;{unit}"
+            "",
+            "#Makes the seizing unit end their turn.",
+            "has_finished;{unit}",
+            "has_visited;{unit}"
         ],
         "nid": "test enter_castleSecond_seize"
     },
@@ -3798,9 +3801,7 @@
             "#Go to the castle unit select screen",
             "trigger_script;Global RunCastle_units;{unit}",
             "",
-            "#Trying to make an event swap from 'seize' to 'visit' isn't easy because LT doesn't include a way to update the trigger name. This jankery is part of how the change works.",
-            "remove_region;OtherCastle_b",
-            "level_var;_respawnCastleOne;True"
+            "has_visited;{unit}"
         ],
         "nid": "test enter_castleSecond"
     },
@@ -4147,5 +4148,18 @@
             "give_money;500"
         ],
         "nid": "test example_giveMoney"
+    },
+    {
+        "name": "RunCastle_temp",
+        "trigger": null,
+        "level_nid": "test",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ],
+        "nid": "test RunCastle_temp"
     }
 ]
