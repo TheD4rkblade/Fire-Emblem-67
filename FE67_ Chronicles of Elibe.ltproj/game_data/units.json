@@ -2459,7 +2459,7 @@
                 false
             ],
             [
-                "Hero_Crest",
+                "Placeholder",
                 false
             ],
             [
@@ -5634,9 +5634,9 @@
         "nid": "Breguet",
         "name": "Breguet",
         "desc": "Commander of a Grado military force.",
-        "variant": null,
+        "variant": "",
         "level": 4,
-        "klass": "Knight",
+        "klass": "Lance_Armor",
         "tags": [
             "Boss"
         ],
@@ -5925,7 +5925,7 @@
         "desc": "Commander of Grado's border guard. His loyalty is unshakable.",
         "variant": "",
         "level": 8,
-        "klass": "Knight",
+        "klass": "Lance_Armor",
         "tags": [
             "Boss"
         ],
@@ -6150,7 +6150,7 @@
                 false
             ],
             [
-                "Knight_Crest",
+                "Placeholder",
                 true
             ]
         ],
