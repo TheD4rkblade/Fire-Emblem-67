@@ -4350,7 +4350,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            ""
+            "speak;;test"
         ],
         "nid": "test unitKilled_Soldier_react"
     }
