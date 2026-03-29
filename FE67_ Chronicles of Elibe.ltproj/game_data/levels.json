@@ -1242,7 +1242,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Kill_This_Guy_NOW"
+                ],
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -1486,12 +1488,7 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "1",
