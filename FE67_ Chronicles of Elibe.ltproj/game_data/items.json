@@ -1224,10 +1224,7 @@
                 [
                     "Myrmidon",
                     "Swordmaster",
-                    "Eirika_Lord",
-                    "Assassin",
-                    "Sword_Bonewalker",
-                    "Sword_Wight"
+                    "Assassin"
                 ]
             ],
             [
@@ -10528,7 +10525,10 @@
             [
                 "prf_class",
                 [
-                    "Dancer"
+                    "Dancer_Ninian",
+                    "Dancer_Lalum",
+                    "Bard_Nils",
+                    "Bard_Elphin"
                 ]
             ]
         ]
@@ -10593,7 +10593,10 @@
             [
                 "prf_class",
                 [
-                    "Dancer"
+                    "Dancer_Ninian",
+                    "Dancer_Lalum",
+                    "Bard_Nils",
+                    "Bard_Elphin"
                 ]
             ]
         ]
@@ -10658,7 +10661,10 @@
             [
                 "prf_class",
                 [
-                    "Dancer"
+                    "Dancer_Ninian",
+                    "Dancer_Lalum",
+                    "Bard_Nils",
+                    "Bard_Elphin"
                 ]
             ]
         ]
@@ -10723,7 +10729,10 @@
             [
                 "prf_class",
                 [
-                    "Dancer"
+                    "Dancer_Ninian",
+                    "Dancer_Lalum",
+                    "Bard_Nils",
+                    "Bard_Elphin"
                 ]
             ]
         ]

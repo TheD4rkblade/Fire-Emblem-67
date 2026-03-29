@@ -162,5 +162,13 @@
     {
         "nid": "Generic_Portrait_Wyvern_Rider",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_portrait_manakete_fe06",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_portrait_nomad_fe06",
+        "subicon_dict": {}
     }
 ]

@@ -5,7 +5,7 @@
         "desc": "A young girl from the Lorca tribe. Stouthhearted and kind.",
         "variant": "",
         "level": 4,
-        "klass": "Eirika_Lord",
+        "klass": "Lyn_Lord",
         "tags": [
             "Lord"
         ],
@@ -678,7 +678,7 @@
         "desc": "A retired knight of Caelin. Constantly testing himself.",
         "variant": null,
         "level": 12,
-        "klass": "Knight",
+        "klass": "Axe_Armor",
         "tags": [],
         "bases": {
             "HP": 30,
@@ -872,7 +872,7 @@
         "desc": "A bard possessing arcane powers. Brother of Ninian.",
         "variant": null,
         "level": 1,
-        "klass": "Dancer",
+        "klass": "Bard_Nils",
         "tags": [],
         "bases": {
             "HP": 14,
@@ -969,7 +969,7 @@
         "desc": "Marquess Pherae\u2019s young son. Just and honourable.",
         "variant": "",
         "level": 1,
-        "klass": "Eirika_Lord",
+        "klass": "Eliwood_Lord",
         "tags": [
             "Lord"
         ],
@@ -1467,7 +1467,7 @@
         "desc": "Marquess Ostia\u2019s younger brother. Reckless, but loyal.",
         "variant": "",
         "level": 2,
-        "klass": "Fighter",
+        "klass": "Hector_Lord",
         "tags": [
             "Lord"
         ],
@@ -1562,7 +1562,7 @@
         "desc": "A knight in service to House Ostia. Hector\u2019s sworn man.",
         "variant": "",
         "level": 9,
-        "klass": "Knight",
+        "klass": "Lance_Armor",
         "tags": [],
         "bases": {
             "HP": 28,
@@ -2224,7 +2224,7 @@
         "desc": "A young girl from a small village in Grado. She is honest and sincere.",
         "variant": null,
         "level": 1,
-        "klass": "Recruit",
+        "klass": "Citizen",
         "tags": [],
         "bases": {
             "HP": 16,
@@ -2527,7 +2527,7 @@
         "desc": "A beautiful and charming dancer from Jehanna.",
         "variant": null,
         "level": 1,
-        "klass": "Dancer",
+        "klass": "Dancer_Ninian",
         "tags": [],
         "bases": {
             "HP": 18,
@@ -3020,7 +3020,7 @@
         "desc": "A sage-in-training from Jehanna. He reveres his teacher, Saleh.",
         "variant": null,
         "level": 1,
-        "klass": "Pupil",
+        "klass": "Dancer_Ninian",
         "tags": [],
         "bases": {
             "HP": 15,
@@ -6509,7 +6509,7 @@
         "desc": "The prince of Grado. The Dark Stone is slowly corrupting his body.",
         "variant": null,
         "level": 14,
-        "klass": "Necromancer",
+        "klass": "Fire_Dragon",
         "tags": [],
         "bases": {
             "HP": 46,
