@@ -5473,7 +5473,8 @@
                 "prf_class",
                 [
                     "Archer",
-                    "Sniper"
+                    "Sniper",
+                    "Ballistician"
                 ]
             ],
             [
@@ -5563,7 +5564,8 @@
                 "prf_class",
                 [
                     "Archer",
-                    "Sniper"
+                    "Sniper",
+                    "Ballistician"
                 ]
             ],
             [
