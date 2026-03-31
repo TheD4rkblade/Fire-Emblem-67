@@ -1190,7 +1190,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron_Axe",
+                        "Steel_Axe",
                         false
                     ]
                 ],
@@ -1242,9 +1242,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Kill_This_Guy_NOW"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -1491,12 +1489,7 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "1",

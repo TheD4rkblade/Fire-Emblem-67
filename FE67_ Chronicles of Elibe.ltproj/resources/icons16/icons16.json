@@ -62,5 +62,9 @@
     {
         "nid": "wexp_icons",
         "subicon_dict": {}
+    },
+    {
+        "nid": "anima_icons",
+        "subicon_dict": {}
     }
 ]
