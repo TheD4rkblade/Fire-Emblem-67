@@ -1192,9 +1192,15 @@
                     [
                         "Steel_Axe",
                         false
+                    ],
+                    [
+                        "Hand_Axe",
+                        false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Critical"
+                ],
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
